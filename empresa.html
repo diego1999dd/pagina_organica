@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" type="image/png" href="./assets/images/favicon.png" />
+    <title>Empresa - Empresa</title>
+  </head>
+  <body>
+    <header class="flex menu_container">
+      <div id="header_content" class="menu_content">
+        <div id="titulo">
+          <a href="">
+            <img
+              src="./assets/images/logo-buscaorganica.svg"
+              alt="Empresa"
+              class="logo"
+            />
+          </a>
+        </div>
+        <div id="menu" class="flex">
+          <nav>
+            <ul class="flex menu_list">
+              <li><a href="/index.html">HOME</a></li>
+              <li><a href="./empresa.html">EMPRESA</a></li>
+              <li><a href="./serviços.html">SERVIÇOS</a></li>
+              <li class="botao_contato">
+                <a href="./contato.html">CONTATO</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="home" class="home_container">
+        <div>
+          <h1>SOBRE NÓS</h1>
+        </div>
+      </section>
+      <section id="sobre" class="sobre_container">
+        <div class="sobre_texto">
+          <div class="titulos">
+            <h4>SOBRE NÓS</h4>
+            <h2>
+              Lorem ipsum dolor sit<br />
+
+              <span class="contorno">& consectetur adipis</span>
+            </h2>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quasi
+            amet culpa quis sed sequi explicabo repudiandae aliquid facilis
+            harum exercitationem ipsam fugiat natus, debitis tempore ex iusto
+            repellat eligendi Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Vero soluta explicabo totam porro, repellendus corporis!
+          </p>
+        </div>
+        <div id="sobre_cards" class="sobre_content">
+          <div class="card_sobre">
+            <img src="./assets/images/3.jpg" alt="" />
+            <h2>Title 1</h2>
+          </div>
+          <div class="card_sobre">
+            <img src="./assets/images/2.jpg" alt="" />
+            <h2>Title 2</h2>
+          </div>
+          <div class="card_sobre_especifico">
+            <img src="./assets/images/1.jpg" alt="" />
+            <h2>Title 3</h2>
+          </div>
+        </div>
+      </section>
+      <section id="formulario" class="formulario_container">
+        <div class="formulario_content">
+          <form action="" method="POST">
+            <label for="nome">Nome <span class="obrigatorio">*</span></label>
+            <input
+              id="nome"
+              type="text"
+              name="nome"
+              placeholder="Digite o seu nome"
+            />
+            <span id="txtNome"></span>
+
+            <label for="email">E-mail <span class="obrigatorio">*</span></label>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="Digite seu e-mail"
+            />
+            <span id="txtEmail"></span>
+
+            <label for="telefone">
+              <span class="label-text">Telefone</span>
+              <span class="obrigatorio">*</span>
+            </label>
+            <input
+              id="telefone"
+              type="tel"
+              name="telefone"
+              placeholder="(11) 99999-9999"
+              pattern="\(\d{2}\) \d{5}-\d{4}"
+              inputmode="numeric"
+              required
+            />
+            <span id="txtTelefone"></span>
+
+            <label for="mensagem"
+              >Como podemos ajudar? <span class="obrigatorio">*</span></label
+            >
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              placeholder="Digite a sua mensagem"
+            ></textarea>
+            <span id="txtMensagem"></span>
+
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+        <div class="informacoes_contato">
+          <h2>Entre em contato</h2>
+          <p>📍 Rua seu endereço - Cidade - BR</p>
+          <p>📞 (11) 9999-9999</p>
+          <p>📱 (11) 9999-9999</p>
+          <p>📧 contato@contato.com.br</p>
+          <p class="barra"></p>
+        </div>
+      </section>
+    </main>
+    <footer id="footer" class="rodape">
+      <div class="rodape_container">
+        <div class="rodape_info">
+          <img
+            src="./assets/images/logo-buscaorganica.jpg"
+            alt="Logo Busca Orgânica"
+          />
+          <p>Rua seu endereço<br />Cidade - CEP: 00000-000</p>
+          <div class="rodape_redes">
+            <a href="https://x.com/home" target="_blank">
+              <img src="./assets/images/twitter.svg" alt="Twitter da empresa" />
+            </a>
+            <a href="https://instagram.com" target="_blank">
+              <img
+                src="./assets/images/instagram.png"
+                alt="Instagram da empresa"
+              />
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+              <img
+                src="./assets/images/linkedin.png"
+                alt="LinkedIn da empresa"
+              />
+            </a>
+            <a href="https://www.youtube.com" target="_blank">
+              <img src="./assets/images/youtube.png" alt="YouTube da empresa" />
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+              <img
+                src="./assets/images/facebook.png"
+                alt="Facebook da empresa"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="rodape_links">
+          <h3>Institucional</h3>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li class="linha"><a href="./empresa.html">Empresa</a></li>
+            <li class="linha"><a href="./serviços.html">Serviços</a></li>
+            <li class="linha"><a href="./contato.html">Contato</a></li>
+            <li class="linha"></li>
+          </ul>
+        </div>
+
+        <div class="rodape_links">
+          <h3>Serviços</h3>
+          <ul>
+            <li><a href="./serviços.html">Serviço 1</a></li>
+            <li class="linha"><a href="./serviços.html">Serviço 2</a></li>
+            <li class="linha"><a href="./serviços.html">Serviço 3</a></li>
+            <li class="linha"><a href="./serviços.html">Serviço 4</a></li>
+            <li class="linha"></li>
+          </ul>
+        </div>
+
+        <div class="rodape_facebook">
+          <iframe
+            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fbuscaorganicaoficial&tabs=timeline&width=500&height=250&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+            style="border: none; overflow: hidden"
+            scrolling="no"
+            frameborder="0"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+          >
+          </iframe>
+        </div>
+      </div>
+
+      <div class="rodape_copyright">
+        <p>Empresa - Slogan da empresa</p>
+      </div>
+    </footer>
+    <a
+      href="https://wa.me/5599999999999"
+      target="_blank"
+      class="whatsapp-button"
+    >
+      <img src="./assets/images/whatsapp.png" alt="WhatsApp" />
+    </a>
+  </body>
+</html>
